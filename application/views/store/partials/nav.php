@@ -10,7 +10,7 @@
                         <a class="nav-link" aria-current="page" href="<?= base_url()?>login">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
+                        <a class="nav-link" href="<?= base_url()?>register">Register</a>
                     </li>
                 </ul>
             </div>

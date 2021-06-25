@@ -27,7 +27,7 @@ class Store extends CI_Controller {
     }
 
     public function register(){
-        // $this->load->view("store/register");
+        $this->load->view("store/register");
     }
 
     public function product(){
