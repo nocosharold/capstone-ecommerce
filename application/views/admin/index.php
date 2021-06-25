@@ -75,6 +75,37 @@
                 <div class="col col-9 border ms-auto mt-3 me-3 rounded-3 shadow-sm">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-users" role="tabpanel" aria-labelledby="v-pills-users-tab">
+                            <button type="button" class="btn btn-primary my-3 float-end" data-bs-toggle="modal" data-bs-target="#modalUser">
+                                + Add User
+                            </button>
+                            <div class="modal fade" id="modalUser" tabindex="-1" aria-labelledby="modalUser" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="first name">
+                                    </div>
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="last name">
+                                    </div>
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="contact">
+                                    </div>
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="email address">
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Confirm</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                             <table class="table table-striped table-hover table-bordered my-3 text-center">
                                 <thead class="table-primary">
                                     <tr>
@@ -262,6 +293,31 @@
                             </table>
                         </div>
                         <div class="tab-pane fade" id="v-pills-products" role="tabpanel" aria-labelledby="v-pills-products-tab">
+                            <button type="button" class="btn btn-primary my-3 float-end" data-bs-toggle="modal" data-bs-target="#modalProduct">
+                                + Add Product
+                            </button>
+                            <div class="modal fade" id="modalProduct" tabindex="-1" aria-labelledby="modalProduct" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="product description">
+                                    </div>
+                                    <div class="mb-3 mx-4">
+                                        <input type="text" class="form-control" placeholder="inventory count">
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Confirm</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                             <table class="table table-striped table-hover table-bordered my-3 text-center">
                                 <thead class="table-primary">
                                     <tr>
